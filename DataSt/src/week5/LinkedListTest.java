@@ -99,7 +99,7 @@ public class LinkedListTest {
 		int add2 = d2.add(d1);
 		System.out.println("d1.add(d2) = "+add1 + "\nd2.add(d1) = "+add2);
 		*/
-		/*
+		
 		CListPlus c1 = new CListPlus();
 		CListPlus c2 = new CListPlus();
 		c1.insert(4);	c2.insert(4);
@@ -107,12 +107,12 @@ public class LinkedListTest {
 		c1.insert(2);	c2.insert(2);
 		c1.insert(1);	c2.insert(1);
 		System.out.print("c1 : "); c1.print();
-		c1.rotateLeft(1);
+		c1.rotateLeft(5);
 		System.out.print("c1.rotateleft(1) : "); c1.print(); System.out.println();
 		System.out.print("c2 : "); c2.print();
-		c2.rotateRight(1);
+		c2.rotateRight(5);
 		System.out.print("c2.rotateRight(1) : "); c2.print();
-		*/
+		
 		
 	}
 }
