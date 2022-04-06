@@ -47,6 +47,9 @@ public class CList<E> {
 	public Node getLast() {
 		return last;
 	}
+	public void setLast() {
+		last = last.getNext();
+	}
 	public void insertLast(E newItem) {
 		Node newNode = new Node(newItem, last.getNext());
 		if(last == null) {
