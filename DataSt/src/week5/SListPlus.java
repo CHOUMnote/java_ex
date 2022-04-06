@@ -10,11 +10,9 @@ public class SListPlus extends SList<Integer>{
 			deleteFront();
 		}
 		
-		 
-			
 		for(int i = 0; i < arr.length; i++) { //정렬된 개수		
 			pivot1 = head;
-			pivot2 = null;
+			pivot2 = null;  
 			if(i == 0) {
 				insertFront(arr[i]);
 				continue;
@@ -49,7 +47,7 @@ public class SListPlus extends SList<Integer>{
 	public void join(SListPlus s2) {
 		Node a = head;
 		int size = s2.getSize() + this.getSize();
-		int[] list = new int[size];
+		int[] list = new int[size];	
 		
 		for(int i = 0; i < this.getSize(); i++) {
 			list[i] = (int)a.getItem();
