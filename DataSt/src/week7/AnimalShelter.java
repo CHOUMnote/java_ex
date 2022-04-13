@@ -34,7 +34,6 @@ public class AnimalShelter {
 	
 	public void print() {
 		int size = result.getSize();
-		result.reverse();
 		Node a = result.getFront();
 		for(int i = 0; i < size; i++) {
 			if(a.getItem() instanceof Dog)
@@ -44,6 +43,5 @@ public class AnimalShelter {
 			a = a.getNext();
 		}
 		System.out.println();
-		result.reverse();
 	}
 }

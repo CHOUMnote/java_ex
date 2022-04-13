@@ -48,7 +48,7 @@ public class QueueTest {
 		queue2.reverse();
 		queue2.print();
 		*/
-		/* 5¹ø
+		
 		AnimalShelter a = new AnimalShelter();
 		a.enter(new Dog("Brad"));
 		a.enter(new Dog("Tom"));
@@ -69,6 +69,6 @@ public class QueueTest {
 		a.print();
 		a.adoptDog();
 		a.print();
-		*/
+		
 	}
 }
