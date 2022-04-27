@@ -2,6 +2,15 @@ package week5;
 
 public class LinkedListTest {
 	public static void main(String[] args) {
+		SList<String> s = new SList<String>();
+		s.insertFront("orange"); s.insertFront("apple");
+		s.insertAfter("cherry", s.head.getNext());
+		s.insertFront("pear");
+		s.print();
+		System.out.println();
+		s.deleteAfter(s.head);
+		s.print();
+		
 		/*	 SList ½ÇÇè
 		SList<String> s = new SList<String>();
 		s.insertFront("orange"); s.insertFront("apple");
@@ -99,7 +108,7 @@ public class LinkedListTest {
 		int add2 = d2.add(d1);
 		System.out.println("d1.add(d2) = "+add1 + "\nd2.add(d1) = "+add2);
 		*/
-		
+		/*
 		CListPlus c1 = new CListPlus();
 		CListPlus c2 = new CListPlus();
 		c1.insert(4);	c2.insert(4);
@@ -112,7 +121,7 @@ public class LinkedListTest {
 		System.out.print("c2 : "); c2.print();
 		c2.rotateRight(5);
 		System.out.print("c2.rotateRight(1) : "); c2.print();
-		
+		*/
 		
 	}
 }

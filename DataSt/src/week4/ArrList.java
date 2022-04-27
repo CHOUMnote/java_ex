@@ -39,10 +39,10 @@ public class ArrList<E> {
 		size++;
 	}
 	public void resize(int newSize) {
-		Object[] t = new Object[newSize];
+		E[] t = (E[])new Object[newSize];
 		for(int i = 0; i < size; i++) 
 			t[i] = a[i];
-		a = (E[]) t;
+		a = t;
 	}
 	public E delete(int k) {
 		if(isEmpty())

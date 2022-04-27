@@ -18,7 +18,7 @@ public class ListQueue<E> {
 	}
 	public void add(E newItem) {
 		Node newNode = new Node(newItem, null);
-		if(isEmpty()) front = newNode;
+		if(isEmpty()) { front = newNode;}
 		else rear.setNext(newNode);
 		rear = newNode;
 		size++;

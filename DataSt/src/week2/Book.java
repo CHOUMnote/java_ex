@@ -1,6 +1,6 @@
 package week2;
 
-import java.util.Comparator;
+import java.util.*;
 public class Book implements Comparable<Book>{
 	public static final Comparator<Book> WITH_NAME = new WithName();
 	public static final Comparator<Book> WITH_SERIAL = new WithSerial();
@@ -26,6 +26,7 @@ public class Book implements Comparable<Book>{
 	public int compareTo(Book b) {
 		return this.title.compareTo(b.title);
 	}
+	
 }
 
 class WithDate implements Comparator<Book>{

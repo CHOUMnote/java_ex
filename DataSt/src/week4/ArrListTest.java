@@ -10,7 +10,8 @@ public class ArrListTest {
 	}
 	
 	public static void main(String[] args) {
-		/*ArrList<String> s = new ArrList<String>();
+		/*
+		ArrList<String> s = new ArrList<String>();
 		s.insert("apple");		s.print();		s.insert("orange");		s.print();
 		s.insert("cherry");		s.print();		s.insert("pear");		s.print();
 		s.insert("grape", 1);	s.print();		s.insert("lemon",4);	s.print();
@@ -22,6 +23,7 @@ public class ArrListTest {
 		System.out.println("1번재 항목은 "+s.peek(1)+"이다."); System.out.println();
 		*/
 		
+		/*
 		ArrListPoly p1 = new ArrListPoly();
 		int[] poly1 = {9,0,-3,0,5};
 		int p1HighestDegree = poly1.length-1;
@@ -36,5 +38,6 @@ public class ArrListTest {
 		
 		ArrListPoly p3 = p1.sumpoly(p2);
 		printPolyEq(p3, 1);
+		*/
 	}
 }

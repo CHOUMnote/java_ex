@@ -30,10 +30,8 @@ public class SList <E> {
 	}
 	public void deleteAfter(Node p) {
 		if(p == null) throw new NoSuchElementException();
-		Node t = p.getNext();
-		if(t!=null) {
-			p.setNext(t.getNext());
-			t.setNext(null);
+		if(p.getNext()!=null) {
+			p.setNext(p.getNext().getNext());
 			size--;
 		}
 	}

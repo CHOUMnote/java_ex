@@ -16,7 +16,7 @@ public class QueueTest {
 		queue.add("kiwi");	queue.print();
 		queue.remove();	queue.print();
 		*/
-		/*	2¹ø
+		
 		ListQueue<String> queue = new ListQueue<>();
 		queue.add("apple");	queue.add("orange");
 		queue.add("cherry"); queue.add("pear");	queue.print();
@@ -28,7 +28,7 @@ public class QueueTest {
 		queue.add("lime");	queue.print();
 		queue.add("kiwi");	queue.print();
 		queue.remove();	queue.print();
-		*/
+		
 		/*	3¹ø
 		ListQueue<Integer> queue = new ListQueue<>();
 		queue.add(1); queue.add(2); queue.add(3); queue.add(4); queue.add(5);
@@ -48,7 +48,7 @@ public class QueueTest {
 		queue2.reverse();
 		queue2.print();
 		*/
-		
+		/*
 		AnimalShelter a = new AnimalShelter();
 		a.enter(new Dog("Brad"));
 		a.enter(new Dog("Tom"));
@@ -69,6 +69,6 @@ public class QueueTest {
 		a.print();
 		a.adoptDog();
 		a.print();
-		
+		*/
 	}
 }
