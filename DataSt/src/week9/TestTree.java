@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class TestTree {
 
 	public static void main(String[] args) {
-		/*
+		/*	
 		BinaryTree<Integer> tree = new BinaryTree<>();
 		tree.setRoot(new Node(100,null,null));
 		tree.creatNode(tree.getRoot(),100, 200, 300);
